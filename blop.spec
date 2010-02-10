@@ -1,12 +1,10 @@
 Name:		blop
 Version:	0.2.8
-Release:	%mkrel 7
-
+Release:	%mkrel 8
 Summary:	Bandlimited LADSPA Oscillator Plugins
 License:	GPLv2+
 Group:		Sound
 URL:		http://blop.sourceforge.net/
-
 Source0:	%{name}-%{version}.tar.bz2
 #Patch0:	blop-0.2.7-compile.patch.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot

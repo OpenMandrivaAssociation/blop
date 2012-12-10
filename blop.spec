@@ -53,3 +53,49 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/ladspa/rdf/*.rdf
 
 
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 0.2.8-9mdv2011.0
++ Revision: 610079
+- rebuild
+
+* Wed Feb 10 2010 Sandro Cazzaniga <kharec@mandriva.org> 0.2.8-8mdv2010.1
++ Revision: 503995
+- clean spec, fix rpmlint's warning on spec
+
+* Tue Jun 16 2009 Jérôme Brenier <incubusss@mandriva.org> 0.2.8-7mdv2010.0
++ Revision: 386384
+- fix license tag
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 0.2.8-6mdv2009.0
++ Revision: 243354
+- rebuild
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 0.2.8-4mdv2008.1
++ Revision: 135856
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Thu Feb 08 2007 Stefan van der Eijk <stefan@mandriva.org> 0.2.8-4mdv2007.0
++ Revision: 118174
+- rebuild
+- Import blop
+
+* Fri Dec 30 2005 Austin Acton <austin@mandriva.org> 0.2.8-3mdk
+- don't own files you shouldn't
+
+* Tue Nov 08 2005 Austin Acton <austin@mandriva.org> 0.2.8-2mdk
+- fix libdir on x86_64
+
+* Thu Jul 29 2004 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 0.2.8-1mdk
+- 0.2.8
+- add translations
+- drop P0 (fixed upstream)
+- drop some docs we really don't need
+- make package short-circuitable
+- cosmetics
+

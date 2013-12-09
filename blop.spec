@@ -1,3 +1,5 @@
+%define debug_package	%{nil}
+
 Name:		blop
 Version:	0.2.8
 Release:	10

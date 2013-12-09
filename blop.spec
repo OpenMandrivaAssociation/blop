@@ -1,6 +1,6 @@
 Name:		blop
 Version:	0.2.8
-Release:	%mkrel 9
+Release:	10
 Summary:	Bandlimited LADSPA Oscillator Plugins
 License:	GPLv2+
 Group:		Sound

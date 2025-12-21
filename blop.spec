@@ -10,6 +10,11 @@ URL:		https://blop.sourceforge.net/
 Source0:	%{name}-%{version}.tar.bz2
 #Patch0:	blop-0.2.7-compile.patch.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	ladspa-devel
 Requires:	ladspa
 
